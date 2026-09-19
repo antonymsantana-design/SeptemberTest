@@ -1,0 +1,14 @@
+const nomep = document.getElementById('clientName');
+const nasc = document.getElementById('birthDate').value;
+const cpf = document.getElementById('clientCPF').value;
+const emprest = document.getElementById('loanAmount').value;
+const Juros = document.getElementById('interestRate').value;
+const parcelas = document.getElementById('installments').value;
+
+
+    nomep.addEventListener('blur', function(){
+        for(let i=0; i=3; i++){
+
+        }
+        
+    })

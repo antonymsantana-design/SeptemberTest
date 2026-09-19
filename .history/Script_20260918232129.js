@@ -4,7 +4,6 @@ const cpfp = document.getElementById("clientCPF");
 const emprestp = document.getElementById("loanAmount");
 const Jurosp = document.getElementById("interestRate");
 const parcelas = document.getElementById("installments").value;
-const inputs = document.querySelectorAll("input");
 
 let tent = 0
 
@@ -43,7 +42,6 @@ emprestp.addEventListener("blur", function (){
     const emprest = document.getElementById("loanAmount").value;
     if(emprest <= 0){
         alert("emprestar zero?")
-        tent++
     }
 });
 
@@ -51,6 +49,5 @@ Jurosp.addEventListener("blur", function(){
     const Juros = document.getElementById("interestRate").value;
     if(Juros <= 0){
         alert("zero juros?")
-        tent++
     }
 })

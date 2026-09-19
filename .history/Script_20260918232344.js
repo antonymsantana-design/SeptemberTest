@@ -54,3 +54,7 @@ Jurosp.addEventListener("blur", function(){
         tent++
     }
 })
+
+if(tent = 3){
+    inputs.disabled = true
+}

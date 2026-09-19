@@ -12,7 +12,7 @@ nomep.addEventListener("blur", function () {
   const nome = document.getElementById("clientName").value;
   if (nome.length < 5) {
     alert("AAAAAAEEEEEEEE ITS ALLRIGHT");
-    tent++
+    tent+
   }
 });
 
